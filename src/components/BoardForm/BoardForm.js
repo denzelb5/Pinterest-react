@@ -27,7 +27,7 @@ class BoardForm extends React.Component {
 
   nameChange = (e) => {
     e.preventDefault();
-    this.setState({ boardName: e.target.value })
+    this.setState({ boardName: e.target.value });
   }
 
   descriptionChange = (e) => {
